@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+  --colorBG: #f0f8ff;
+  --colorSecund: #00ffff;
+  --colorFont: #818181;
+  --colorMenu: #e9e9e9;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+a.logo-color{
+  color: var(--colorBG);
+}
+a.nav-link {
+  color: var(--colorBG)
+}
+a.nav-link:hover {
+  color: #00ffff;
+  border-radius: 10px;
+}
+
+a.nav-link.down-cv {
+  background-color: var(--colorSecund);
+  border-radius: 30px;
+}
+
+a.nav-link.down-cv:hover {
+  background-color: var(--colorFont)
+}
+
+section.profesional{
+  background-color: #d3ffff;
+}
