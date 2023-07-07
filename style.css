@@ -1,36 +1,108 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-:root{
+:root {
   --colorBG: #f0f8ff;
   --colorSecund: #00ffff;
   --colorFont: #818181;
   --colorMenu: #e9e9e9;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
+  color: var(--colorFont);
 }
-a.logo-color{
+
+button.btn-color {
+  border: none;
+  background-color: var(--colorSecund);
+  border-radius: 5px;
+}
+
+a.logo-color {
   color: var(--colorBG);
 }
+
 a.nav-link {
   color: var(--colorBG)
 }
+
 a.nav-link:hover {
-  color: #00ffff;
+  color: var(--colorSecund);
   border-radius: 10px;
 }
 
-a.nav-link.down-cv {
-  background-color: var(--colorSecund);
-  border-radius: 30px;
+a.dropdown-item:hover {
+  color: var(--colorSecund);
 }
 
 a.nav-link.down-cv:hover {
-  background-color: var(--colorFont)
+  background-color: var(--colorSecund);
+  color: var(--colorFont);
+  border-radius: 30px;
 }
 
-section.profesional{
-  background-color: #d3ffff;
+/* inicio */
+.title-inicio p {
+  font-size: 80px;
+  color: var(--colorFont);
+}
+
+div .text-digital {
+  color: var(--colorSecund);
+}
+
+.imagenes {
+  padding: 10px;
+  height: 550px;
+}
+
+.altura-slide {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+
+}
+
+.subt-img h5 {
+  color: var(--colorFont);
+  text-align: center;
+}
+
+button .bi {
+  color: var(--colorSecund);
+  font-size: xx-large;
+}
+
+/* acerca de mi */
+.subt-text {
+  color: var(--colorSecund);
+}
+
+
+
+
+
+
+
+/* mediasQuerys */
+@media screen and (max-width: 768px) {
+  .title-inicio p {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .imagenes {
+    height: 50%;
+  }
+
+  .subt-text {
+    font-size: 50px;
+  }
 }

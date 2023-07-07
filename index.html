@@ -8,68 +8,145 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- icons bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- my css -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
 </head>
 
 <body>
+    <!-- menu superior -->
     <header class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand logo-color" href="#">LOGOTIPO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler btn-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item ms-4">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ms-4">
                         <a class="nav-link" href="#">Acerca de mi</a>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ms-4">
                         <a class="nav-link" href="#">Profesional</a>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ms-4">
                         <a class="nav-link">Expreciencia</a>
                     </li>
-                    <li class="nav-item ms-2">
+                    <li class="nav-item ms-4">
                         <a class="nav-link">Proyectos</a>
                     </li>
-                    <li class="nav-item ms-2">
-                        <a class="nav-link down-cv px-4">Download Cv</a>
+                    <li class="nav-item dropdown ms-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contactame
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://twitter.com/yus0813pereira">Twitter</a></li>
+                            <li><a class="dropdown-item" href="#">Instagram</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.linkedin.com/in/yusmaira-pereira-049975183">LinkedIn</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link ms-2 text-center down-cv">Descargar Cv</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <div class="container mt-5">
-        <section class="row about bg-light rounded-4">
-            <p class="fs-4 text-center text-uppercase pt-4">Acerca de mi</p>
-            <div class="row about-content">
-                <div class="col">
-                    <img src="#" alt="foto de perfil">
+    <!-- inicio -->
+    <div class="container">
+        <section class="row mt-5">
+            <div class="description-inicio d-flex flex-column justify-content-center col-lg-6">
+                <div class="row title-inicio">
+                    <p class="text-center text-uppercase fw-bolder">marketing</p>
                 </div>
-                <div class="col about-items">
-                    <div class="row biog">
-                        <p class="fs-5 text-uppercase pt-4">Biografia</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque voluptate atque enim
-                            ullam excepturi nesciunt cum quasi at deserunt assumenda reiciendis animi eligendi, omnis
-                            consectetur facilis! Commodi, numquam nesciunt.</p>
+                <div class="row title-inicio offset-lg-2">
+                    <p class="text-digital text-center text-uppercase fw-bolder">digital</p>
+                </div>
+                <div class="row d-none d-lg-block">
+                    <p class="fs-6 text-center text-lg-start">📱 Mi propisito es ayudarte a promover tus productos y
+                        servicios, para
+                        lograr llegar a una audiencia específica, generar interés y obtener resultados medibles.
+                        Incluye 🌐 publicidad en línea, 📝 contenido relevante, 📲 redes sociales, 🔍 SEO, 📧
+                        email marketing y 📊 análisis de datos utilizando estrategias en línea. Mi objetivo
+                        principal es conectar con los consumidores en todos los entornos digitales de manera
+                        efectiva.🤝</p>
+                </div>
+            </div>
+            <div class="imagenes col-md-12 col-lg-6">
+                <div id="carouselExampleRide" class="carousel slide altura-slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/imags/undraw_Content_team_re_6rlg.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imags/undraw_Mobile_marketing_re_p77p.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imags/undraw_Modern_professional_re_3b6l.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imags/undraw_Social_dashboard_re_ocbd.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imags/undraw_Social_media_re_sulg.png" alt="...">
+                        </div>
                     </div>
-                    <div class="row hobbies">
-                        <p class="fs-5 text-uppercase pt-4">Hobbies</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque voluptate atque enim
-                            ullam excepturi nesciunt cum quasi at deserunt assumenda reiciendis animi eligendi, omnis
-                            consectetur facilis! Commodi, numquam nesciunt.</p>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="prev">
+                        <i class="bi bi-caret-left-fill"></i>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="next">
+                        <i class="bi bi-caret-right-fill"></i>
+                    </button>
                 </div>
             </div>
         </section>
     </div>
 
+    <!-- acerca de mi -->
+    <div class="row my-5">
+        <p class="fs-1 fw-bold text-center text-uppercase subt-text">Acerca de mi</p>
+    </div>
+
+    <div class="container">
+        <section class="row bg-dark rounded-5">
+            <div class="col-6 acerca-img">
+                <div class="row p-2">
+                    <img src="/imags/profile.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-6 acerca-description d-flex flex-column align-items-center">
+                <div class="row bio mt-5">
+                    <p class="text-center fs-1 text-uppercase fw-medium subt-text">biografia</p>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam molestiae iste. Sit similique neque eius labore animi? Ullam fuga magni inventore autem modi est saepe itaque reprehenderit dicta facilis!
+                    Doloremque accusantium et quaerat quia eos, sed vel debitis itaque odit voluptas minus quod neque dignissimos laboriosam cupiditate distinctio, vitae expedita repellat quasi. Itaque nihil ex asperiores unde necessitatibus similique?</p>
+                </div>
+                <div class="row hobbie mt-5">
+                    <p class="text-center fs-1 text-uppercase fw-medium subt-text">hobbies</p>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, totam recusandae harum eligendi quia necessitatibus laborum quibusdam nulla distinctio. Odit ratione reprehenderit ipsa distinctio, eligendi veritatis perspiciatis obcaecati ullam recusandae!
+                    Excepturi, ipsa. Distinctio quaerat vero molestias magni aspernatur? Et officiis dicta explicabo recusandae, atque, eveniet cum nobis perspiciatis incidunt commodi voluptas consectetur non suscipit. Ipsa architecto rerum optio illo eaque?</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- profesional -->
     <div class="container mt-5">
         <section class="row profesional rounded-4">
             <p class="fs-4 text-center text-uppercase pt-4">Profesional</p>
