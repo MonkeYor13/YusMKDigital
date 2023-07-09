@@ -82,9 +82,12 @@ button .bi {
 /* acerca de mi */
 .subt-text {
   color: var(--colorSecund);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-
+/* profesional */
 
 
 
@@ -98,11 +101,12 @@ button .bi {
 }
 
 @media screen and (max-width: 576px) {
-  .imagenes {
+  .imagenes, .acerca-img {
     height: 50%;
   }
 
   .subt-text {
     font-size: 50px;
   }
+ 
 }
