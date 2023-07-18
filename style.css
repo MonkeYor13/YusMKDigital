@@ -72,3 +72,16 @@ h3 > span{
   border-radius: 50px;
   border: 2px solid var(--colorSecund);
 }
+
+/*PROFESSIONAL*/
+.imagen{
+  width: 100%;
+}
+.imagen > img{
+  width: 400px;
+}
+.btn{
+  color: var(--colorFont);
+  background-color: var(--colorSecund);
+}
+
