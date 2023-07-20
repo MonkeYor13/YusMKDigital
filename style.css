@@ -13,6 +13,9 @@ color: var(--colorSecudary);
 
 /* menu */
 .navbar-brand{
+  color: var(--colorPrimary);
+}
+.navbar-brand:hover{
   color: var(--colorTema);
 }
 .btn-menu{
@@ -30,4 +33,21 @@ color: var(--colorSecudary);
 
 .icons-social-menu{
   font-size: 24px;
+}
+
+/* home */
+
+
+.carousel-caption p {
+  color: var(--colorSecudary);
+}
+.btn-home{
+  color: var(--colorTema);
+  background-color: var(--colorSecudary);
+  
+}
+.btn-home:hover{
+  color: var(--colorSecudary);
+  background-color: var(--colorTema);
+  
 }
