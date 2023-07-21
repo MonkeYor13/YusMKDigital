@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 :root {
   --colorPrimary: #EBEBEB;
@@ -37,17 +38,29 @@ color: var(--colorSecudary);
 
 /* home */
 
-
-.carousel-caption p {
+.carousel-caption h5 {
   color: var(--colorSecudary);
 }
 .btn-home{
-  color: var(--colorTema);
-  background-color: var(--colorSecudary);
-  
-}
-.btn-home:hover{
   color: var(--colorSecudary);
   background-color: var(--colorTema);
-  
 }
+.letter-cita{
+  font-weight: 900;
+}
+.corrida{
+  font-family: 'Caveat', cursive;
+}
+
+/* acerca de mi */
+.imgen-acerca{
+  width: 400px;
+}
+
+.colorName{
+  color: var(--colorPrimary);
+}
+.cont-profesional{
+  background-color: var(--colorTema);
+}
+
