@@ -53,14 +53,34 @@ color: var(--colorSecudary);
 }
 
 /* acerca de mi */
+.titulo-pri{
+  margin-top: 80px;
+  
+}
 .imgen-acerca{
   width: 400px;
 }
-
 .colorName{
   color: var(--colorPrimary);
 }
 .cont-profesional{
   background-color: var(--colorTema);
 }
+.acerca-logo-social{
+  color: var(--colorSecudary);
+  margin-right: 20px
+  ;
+}
+.acerca-logo-social:hover{
+  color: var(--colorTema);
+}
 
+
+/* profesional */
+.btn-card:hover{
+  background-color: var(--colorTema);
+  color: var(--colorSecudary);
+}
+.linea-color{
+  border-right: 2px solid var(--colorTema);
+}
