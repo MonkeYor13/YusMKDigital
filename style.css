@@ -43,6 +43,9 @@ color: var(--colorSecudary);
 }
 .btn-home{
   color: var(--colorSecudary);
+  border: 1px solid var(--colorSecudary);
+}
+.btn-home:hover{
   background-color: var(--colorTema);
 }
 .letter-cita{
