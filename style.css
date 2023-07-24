@@ -79,11 +79,26 @@ color: var(--colorSecudary);
 }
 
 
-/* profesional */
+/* experiencia */
 .btn-card:hover{
   background-color: var(--colorTema);
   color: var(--colorSecudary);
 }
 .linea-color{
   border-right: 2px solid var(--colorTema);
+}
+
+/* footer */
+.imgen-footer{
+  width: 200px;
+}
+
+.footer-logo-social{
+  width: 20px;
+}
+.textcolor-footer{
+  color: var(--colorPrimary);
+}
+.textcolor-footer:hover{
+  color: var(--colorTema);
 }
