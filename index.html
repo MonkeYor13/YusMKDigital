@@ -16,6 +16,7 @@
 
 <body>
     <!-- menu -->
+    <section id="home-sect"></section>
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
             <a class="navbar-brand ms-2" href="#">YusMK Digital</a>
@@ -26,38 +27,45 @@
             <div class="collapse navbar-collapse justify-content-center align-items-center ms-lg-5" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home-sect">Home</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Acerca de Mi</a>
+                        <a class="nav-link" href="#about-sect">Acerca de Mi</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Profesión</a>
+                        <a class="nav-link" href="#experiencia-sect">Experiencia</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Noticias</a>
+                        <a class="nav-link" href="#news-sect">Noticias</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Mi Cv</a>
+                        <a download="Yusmaira_Pereira_Cv" class="nav-link" href="/documens/Cv_yusmaira_pereira.pdf">Mi Cv</a>
                     </li>
                 </ul>
                 <!-- iconos social media -->
                 <ul class="d-flex list-unstyled mt-3 ms-5">
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#"><i class="bi bi-linkedin icons-social-menu"></i></a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/yusmaira-pereira/" target="_blank"><i
+                                class="bi bi-linkedin icons-social-menu"></i></a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#"><i class="bi bi-instagram icons-social-menu"></i></a>
+                        <a class="nav-link" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
+                                class="bi bi-instagram icons-social-menu"></i></a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#"><i class="bi bi-twitter icons-social-menu"></i></a>
+                        <a class="nav-link" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                                class="bi bi-twitter icons-social-menu"></i></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
+                                class="bi bi-tiktok icons-social-menu"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- home -->
+    <!-- inicio -->
     <section class="container my-5">
         <div class="row d-block">
             <div class="col">
@@ -75,7 +83,7 @@
                             <img src="/imags/photo-home-1.png" class="d-block img-fluid" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h6>Puedes descarga mi Cv</h6>
-                                <button type="button" class="btn btn-home px-5 font-monospace">CLICK</button>
+                                <button type="button" class="btn btn-home px-5 font-monospace"><a class="text-decoration-none btn-carusell" download="Yusmaira_Pereira_Cv" href="/documens/Cv_yusmaira_pereira.pdf">CLICK</a></button>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -107,7 +115,7 @@
     <hr>
 
     <!-- acerca de mi -->
-    <div class="row titulo-pri">
+    <div id="about-sect" class="row titulo-pri">
         <div class="col text-center">
             <h4 class="text-uppercase">Acerca de mi</h4>
         </div>
@@ -164,12 +172,17 @@
                     </p>
                     <div class="row">
                         <div class="col">
-                            <a class="acerca-logo-social" href="#"><i class="bi bi-linkedin icons-social-menu"></i>
+                            <a class="acerca-logo-social" href="https://www.linkedin.com/in/yusmaira-pereira/" 
+                                target="_blank"><i class="bi bi-linkedin icons-social-menu"></i>
                             </a>
-                            <a class="acerca-logo-social" href="#"><i class="bi bi-instagram icons-social-menu"></i>
+                            <a class="acerca-logo-social" href="https://www.instagram.com/yusmkdigital/"
+                                target="_blank"><i class="bi bi-instagram icons-social-menu"></i>
                             </a>
-                            <a class="acerca-logo-social" href="#"><i class="bi bi-twitter icons-social-menu"></i>
+                            <a class="acerca-logo-social" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                                    class="bi bi-twitter icons-social-menu"></i>
                             </a>
+                            <a class="acerca-logo-social" href="https://www.tiktok.com/@yusmairapereira"
+                                target="_blank"><i class="bi bi-tiktok icons-social-menu"></i></a>
                         </div>
                     </div>
                 </div>
@@ -178,113 +191,109 @@
         </div>
     </section>
     <hr>
-
     <!-- experiencia -->
-    <div class="row titulo-pri">
+    <div id="experiencia-sect" class="row titulo-pri">
         <div class="col text-center">
             <h4 class="text-uppercase">Experiencia</h4>
         </div>
     </div>
     <section class="container my-5">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-6 p-0">
-                <div>
-                    <img src="/imags/photo-exp-1.png" alt="foto de laptop sobre la mesa" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-3 m-0">
-                <div class="linea-color px-1" style="width: 18rem;">
-                    <img src="/imags/coder-logo.png" class="card-img-top" alt="logocoderhouse">
-                    <div class="card-body">
-                        <h5 class="card-title text-uppercase fw-bold">Marketing Digital</h5>
-                        <p class="card-text">Carrera Community Manager & Publicidad. estrategia de Publicidad en Redes
+        <div class="row">
+            <img class="col-lg-6 d-none d-md-block img-fluid" src="/imags/photo-exp-1.png"
+                alt="foto de laptop sobre la mesa">
+            <div class="col-lg-6">
+                <div class="row mb-4">
+                    <img class="col-md-4 col-lg-5 img-fluid" src="/imags/coder-logo.png" alt="logo coderhouse">
+                    <div class="col-md-2 col-lg-1 card-body">
+                        <h5 class="card-title text-uppercase fw-bold text-center pt-4">Marketing Digital
+                        </h5>
+                        <p class="card-text p-4">Carrera Community Manager & Publicidad. estrategia de Publicidad en
+                            Redes
                             creando campañas de publicidad y Growth Marketing.</p>
-                        <a target="_blank" href="https://www.coderhouse.com/" class="btn btn-dark btn-card border-0">Ir
-                            a Web</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 m-0">
-                <div class="" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-uppercase fw-bold">google y facebook ads</h5>
-                        <p class="card-text">
-                            Módulos Google y Facebook Ads. Marketing para redes Sociales. Diseño UX
-                        </p>
-                        <a target="_blank" href="https://www.domestika.org/es" class="btn btn-dark btn-card border-0">Ir
-                            a Web</a>
-                    </div>
-                    <img src="/imags/domestika-logo.png" class="card-img-bottom" alt="logo domestika">
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-items-center justify-content-center">
-            <div class="col-6">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-6">
-                        <div class="cont-img-exp">
-                            <img src="/imags/it-logo.png" alt="logo educacion it" class="img-fluid">
+                        <div class="row align-items-center justify-content-center">
+                            <a target="_blank" href="https://www.coderhouse.com/"
+                                class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase fw-bold">INTRO a MARKETING DIGITAL</h5>
-                            <p class="card-text">Conceptos del Marketing Digital, utilizando los canales digitales y
-                                técnicas para desarrollar estrategias de comunicación efectivas para aumentar el impacto
-                                campañas y negocios.</p>
+                </div>
+                <div class="row">
+                    <img class="col-md-4 col-lg-5 img-fluid" src="/imags/it-logo.png" alt="logo educacion it">
+                    <div class="col-md-2 col-lg-1 card-body">
+                        <h5 class="card-title text-uppercase fw-bold text-center pt-4">introducción a marketing digital
+                        </h5>
+                        <p class="card-text p-4">Conceptos del Marketing Digital, utilizando los canales digitales y
+                            técnicas para desarrollar estrategias de comunicación efectivas para aumentar el impacto
+                            campañas y negocios.</p>
+                        <div class="row align-items-center justify-content-center">
                             <a target="_blank" href="https://www.educacionit.com/"
-                                class="btn btn-dark btn-card border-0">Ir a Web</a>
+                                class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6 p-0">
-                <div>
-                    <img src="/imags/photo-exp-2.png" alt="foto articulos de oficina" class="img-fluid">
-                </div>
-            </div>
         </div>
-
-        <div class="row align-items-center justify-content-center">
-            <div class="col-6 p-0">
-                <div>
-                    <img src="/imags/photo-exp-3.jpg" alt="foto chica home office" class="img-fluid">
+        <div class="row mt-0 mt-md-4 mt-lg-0">
+            <img class="col-lg-6 d-none d-md-block d-lg-none img-fluid" src="/imags/photo-exp-2.png"
+                alt="foto articulos de oficina">
+            <div class="col-lg-6">
+                <div class="row mb-4">
+                    <img class="col-md-4 col-lg-5 img-fluid" src="/imags/domestika-logo.png" alt="logo domestika">
+                    <div class="col-md-2 col-lg-1 card-body">
+                        <h5 class="card-title text-uppercase fw-bold text-center pt-4">google y facebook ads
+                        </h5>
+                        <p class="card-text p-4">Módulos Google y Facebook Ads. Marketing para redes Sociales. Diseño
+                            UX.</p>
+                        <div class="row align-items-center justify-content-center">
+                            <a target="_blank" href="https://www.domestika.org/es"
+                                class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="px-1 linea-color" style="width: 18rem;">
-                    <div class="card-body mt-4">
-                        <h5 class="card-title text-uppercase fw-bold">Illustrator</h5>
-                        <p class="card-text">
-                            Adobe Illustrator CC herramienta que permite realizar imagenes vectoriales, uso de
+            <img class="col-lg-6 d-none d-lg-block img-fluid" src="/imags/photo-exp-2.png"
+                alt="foto de laptop sobre la mesa">
+        </div>
+        <div class="row">
+            <img class="col-lg-6 d-none d-md-block img-fluid" src="/imags/photo-exp-3.jpg" alt="foto chica home office">
+            <div class="col-lg-6">
+                <div class="row mb-4">
+                    <img class="col-md-4 col-lg-5 img-fluid" src="/imags/udemy-logo.png" alt="logo udemy">
+                    <div class="col-md-2 col-lg-1 card-body">
+                        <h5 class="card-title text-uppercase fw-bold text-center pt-4">Illustrator CC
+                        </h5>
+                        <p class="card-text p-4">Adobe Illustrator CC herramienta que permite realizar imagenes
+                            vectoriales, uso de
                             herramientas de selección, la pluma, el lapiz, los colores, la creación de mesas de
                             trabajos.</p>
-                        <a target="_blank" href="https://www.udemy.com/" class="btn btn-dark btn-card border-0">Ir a
-                            Web</a>
+                        <div class="row align-items-center justify-content-center">
+                            <a target="_blank" href="https://www.udemy.com/"
+                                class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
+                        </div>
                     </div>
-                    <img src="/imags/udemy-logo.png" class="card-img-bottom" alt="logo udemy">
                 </div>
-            </div>
-            <div class="col-3 m-0">
-                <div class="" style="width: 18rem;">
-                    <img src="/imags/univ-logo.png" class="card-img-top" alt="logo de la unversidad momboy">
-                    <div class="card-body">
-                        <h5 class="card-title text-uppercase fw-bold">univ. valle del momboy</h5>
-                        <p class="card-text">Promover la ética y calidad procesos de relevancia que propicien el
+                <div class="row">
+                    <img class="col-md-4 col-lg-5 img-fluid" src="/imags/univ-logo.png"
+                        alt="logo de la unversidad momboy">
+                    <div class="col-md-2 col-lg-1 card-body">
+                        <h5 class="card-title text-uppercase fw-bold text-center pt-4">univ. valle del momboy
+                        </h5>
+                        <p class="card-text p-4">Promover la ética y calidad procesos de relevancia que propicien el
                             Desarrollo Humano Sustentable, mediante la formación integral de personas altamente
-                            participativas, competentes y emprendedoras.</p>
-                        <a target="_blank" href="https://uvm.edu.ve/" class="btn btn-dark btn-card border-0">Ir a
-                            Web</a>
+                            participativas, competentes y emprendedoras.
+                        </p>
+                        <div class="row align-items-center justify-content-center">
+                            <a target="_blank" href="https://uvm.edu.ve/" class="btn btn-dark btn-card border-0 w-25">Ir
+                                a Web</a>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
     <hr>
-
     <!-- noticias-->
-    <div class="row titulo-pri">
+    <div id="news-sect" class="row titulo-pri">
         <div class="col text-center">
             <h4 class="text-uppercase">News</h4>
         </div>
@@ -347,42 +356,80 @@
     </section>
     <hr>
     <!-- footer -->
-    <section class="my-5 bg-black p-5">
-        <div class="row align-items-center">
-            <div class="col">
-                <h5 class="text-center textcolor-footer">YusMK Digital</h5>
-                <div class="imgen-footer d-flex justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle" src="/imags/profile-2.png" alt="foto perfil 2">
-                </div>
-            </div>
-            <div class="col">
-                <h5 class="textcolor-footer">Creaciones</h5>
-                <p class="textcolor-footer">Diseñado y construido con todo el amor del mundo por el equipo de MonkeYor Design, con la valiosa
-                    colaboración de YusMK Digital. Nuestro objetivo es brindar ayuda y apoyo a todas las personas que
-                    desean crecer profesionalmente en el mundo de la tecnología y el marketing. ¡Gracias por formar
-                    parte de nuestra comunidad!.</p>
-            </div>
-            <div class="col">
-                <h5 class="textcolor-footer">Comunidad</h5>
-                <h6 class="textcolor-footer"> YusMK Digital</h6>
-                <div class="row">
-                    <div class="col">
-                        <a class="textcolor-footer" href="#"><i class="bi bi-linkedin"></i>
-                        </a>
-                        <a class="textcolor-footer" href="#"><i class="bi bi-instagram"></i>
-                        </a>
-                        <a class="textcolor-footer" href="#"><i class="bi bi-twitter"></i>
-                        </a>
+    <section class="container-fluid mt-5 bg-black p-5">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="row justify-content-center align-items-center">
+                    <h5 class="text-center textcolor-footer mb-4">YusMK Digital</h5>
+                    <div class="imgen-footer">
+                        <img class="img-fluid rounded-circle border-color" src="/imags/profile-2.png"
+                            alt="foto perfil 2">
                     </div>
                 </div>
-                <h6 class="textcolor-footer">MonkeYor Design</h6>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">blog</h6>
+                <div class="row text-center text-md-start">
+                    <a class="text-decoration-none textcolor-footer mb-2 mt-2 mt-md-0" href="#home-sect">Inicio</a>
+                    <a class="text-decoration-none textcolor-footer mb-2" href="#about-sect">Acerca de mi</a>
+                    <a class="text-decoration-none textcolor-footer mb-2" href="#experiencia-sect">Experiencia</a>
+                    <a class="text-decoration-none textcolor-footer" href="#news-sect">Noticias</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 mt-2 mt-md-0">
+                <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">contactos</h6>
+                <div class="row text-center text-md-start">
+                    <a download="Yusmaira_Pereira_Cv" class="text-decoration-none textcolor-footer mb-2" href="/documens/Cv_yusmaira_pereira.pdf">Mi Cv</a>
+                    <a class="textcolor-footer text-decoration-none" href="mailto:yusmaira.pereira@gmail.com">Enviame un Email</a>
+                    <div class="row d-inline-block mt-4">
+                        <a class="textcolor-footer" href="https://www.linkedin.com/in/yusmaira-pereira/"
+                            target="_blank"><i class="bi bi-linkedin"></i>
+                        </a>
+                        <a class="textcolor-footer" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
+                                class="bi bi-instagram"></i>
+                        </a>
+                        <a class="textcolor-footer" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                                class="bi bi-twitter"></i></a>
+                        <a class="textcolor-footer" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
+                                class="bi bi-tiktok"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block col-lg-3">
+                <h6 class="text-uppercase textcolor-footer mb-4">Creaciones</h6>
+                <p class="textcolor-footer footer-text-tall">Hecho con todo mi AMOR del mundo por <strong>YusMK
+                        Digital</strong>, en
+                    colaboración del equipo de MonkeYor Design. Nuestro objetivo es brindar la ayuda y sobre todo el
+                    apoyo a todas las personas que desean crecer profesionalmente en el mundo del marketing y el
+                    maravilloso mundo que lo rodea en la actualidad. ¡Gracias por formar
+                    parte de mi comunidad! I Love it!.</p>
+                <p class="corrida textcolor-footer text-center fs-2">Yusmaira Pereira</p>
+            </div>
+        </div>
+        <div class="row linea my-4">
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h6 class="textcolor-footer font-monospace footer-text-tall">MonkeYor Design</h6>
+                <p class="footer-text-tall textcolor-footer">Established 2020 <i class="bi bi-c-circle"></i></p>
+            </div>
+
+            <div class="col-12 imgen-footer">
+                <img src="/imags/m1.png" alt="logo monkeyor" class="img-fluid">
+            </div>
+
+            <div class="col-12 col-md-4 text-center text-md-end mt-4">
                 <div class="row">
                     <div class="col">
-                        <a class="textcolor-footer" href="#"><i class="bi bi-linkedin "></i>
+                        <a class="textcolor-footer me-4" href="https://www.linkedin.com/in/yorvisjesusrodriguez13/"
+                            target="_blank"><i class="bi bi-linkedin "></i>
                         </a>
-                        <a class="textcolor-footer" href="#"><i class="bi bi-instagram "></i>
+                        <a class="textcolor-footer me-4" href="https://www.instagram.com/monke.yor/" target="_blank"><i
+                                class="bi bi-instagram "></i>
                         </a>
-                        <a class="textcolor-footer" href="#"><i class="bi bi-twitter "></i>
+                        <a class="textcolor-footer" href="https://twitter.com/YorMonke" target="_blank"><i
+                                class="bi bi-twitter "></i>
                         </a>
                     </div>
                 </div>
