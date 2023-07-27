@@ -39,15 +39,14 @@ color: var(--colorSecudary);
 .carousel-caption h5 {
   color: var(--colorSecudary);
 }
-.btn-home{
-  border: 1px solid var(--colorSecudary);
-  transition: ease-in .5s;
-}
-.btn-home:hover{
-  background-color: var(--colorTema);
-}
 .btn-carusell{
+  border: 1px solid var(--colorSecudary);
   color: var(--colorSecudary);
+  transition: ease 1s;
+}
+.btn-carusell:hover{
+  background-color: var(--colorTema);
+  border: none;
 }
 .letter-cita{
   font-weight: 900;
