@@ -34,6 +34,9 @@ color: var(--colorSecudary);
 .icons-social-menu{
   font-size: 24px;
 }
+.menu-home{
+  opacity: 0;
+}
 
 /* home */
 .carousel-caption h5 {
