@@ -1,7 +1,4 @@
-gsap.to('.menu-home',{
-  duration:5,
-  opacity: 1,
-  });
+
 
 
   let tl = gsap.timeline({
