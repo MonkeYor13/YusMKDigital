@@ -17,6 +17,14 @@
       {
         "nested-interactive": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scale"
+        ]
+      }
     ]
   }
 }
