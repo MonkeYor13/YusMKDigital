@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-color: var(--colorSecudary);
+  color: var(--colorSecudary);
 }
 
 /* menu */
@@ -79,13 +79,25 @@ color: var(--colorSecudary);
 
 /* experiencia */
 .btn-card{
-  background-image: linear-gradient(to right,#3DDECE, #3fbdb0);
+  background: linear-gradient(to right,#3DDECE, #3fbdb0);
 }
 .btn-card:hover{
-  background-image: linear-gradient(to left,#3DDECE, #3fbdb0);
+  background: linear-gradient(to left,#3DDECE, #3fbdb0);
 }
 .linea-color{
   border-right: 2px solid var(--colorTema);
+}
+
+/* portafolio */
+
+.btn-acordion{
+  background: var(--colorTema);
+}
+.btn-cv-portafolio{
+  background: linear-gradient(to right,#3DDECE, #3fbdb0);
+}
+.btn-portafolio{
+  color: var(--colorSecudary);
 }
 
 /* footer */
