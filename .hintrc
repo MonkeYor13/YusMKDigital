@@ -33,6 +33,12 @@
           "iframe[allow]"
         ]
       }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-valid-attr-value": "off"
+      }
     ]
   }
 }

@@ -128,13 +128,12 @@ body {
   font-size: 10px;
 }
 
-
 /* animation */
 
 @keyframes show {
   from{
     opacity: 0;
-    scale: 50%;
+    scale: 40%;
   }
   to{
     opacity: 1;
