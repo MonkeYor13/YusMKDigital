@@ -1,925 +1,841 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Yorvis Rodriguez- Monkeyor" />
-    <meta
-      name="description"
-      content="Esta es un blog sobre marketing digital"
-    />
-    <meta
-      name="keywords"
-     
-        content="marketing, marketing-general, marketing digital, redes sociales, noticias de marketing, eventos de marketing digital, Buyer Persona
-    Conversión, Email Marketing, Influencer, Atracción de leads, Automatización de marketing, Blog, Branding, Clickbait, Contenido evergreen, Engagement, Lead, Banne,"
-    />
-    <title>YusMK Digital</title>
-    <!-- link de icono de pestaña -->
-    <link rel="shortcut icon" type="image/x-icon" href="./iconos/icon2.png" />
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <!-- icons bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <!-- my css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- libreria GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Yorvis Rodriguez- Monkeyor" />
+  <meta name="description" content="Esta es un blog sobre marketing digital" />
+  <meta name="keywords"
+    content="marketing, marketing-general, marketing digital, redes sociales, noticias de marketing, eventos de marketing digital, Buyer Persona
+    Conversión, Email Marketing, Influencer, Atracción de leads, Automatización de marketing, Blog, Branding, Clickbait, Contenido evergreen, Engagement, Lead, Banne," />
+  <title>YusMK Digital</title>
+  <!-- link de icono de pestaña -->
+  <link rel="shortcut icon" type="image/x-icon" href="./iconos/icon2.png" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <!-- icons bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- libreria GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 </head>
-  <body>
-    <!-- menu -->
-    <section id="home-sect"></section>
-    <nav class="navbar navbar-expand-lg bg-black">
-      <div class="container-fluid">
-        <img
-          class="navbar-brand ms-3"
-          src="./logotype/small.png"
-          alt=""
-          width="150px"
-        />
-        <button
-          class="btn-menu d-lg-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list"></i>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center ms-lg-5"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#about-sect">Acerca de Mi</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#estudios-sect">Estudios</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#portafolio-sect">Mi Portafolio</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#news-sect">Noticias</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a
-                download="Yusmaira_Pereira_Cv"
-                class="nav-link"
-                href="./documens/Cv_yusmaria_Pereira_2024.pdf"
-                >Mi Cv</a
-              >
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" aria-current="page" href="#footer-sect">Contactos</a>
-            </li>
-          </ul>
-          <!-- iconos social media -->
-          <ul class="d-flex list-unstyled mt-3 ms-5">
-            <li class="nav-item mx-3">
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/yusmaira-pereira/"
-                target="_blank"
-                ><i class="bi bi-linkedin icons-social-menu"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-3">
-              <a
-                class="nav-link"
-                href="https://www.instagram.com/yusmkdigital/"
-                target="_blank"
-                ><i class="bi bi-instagram icons-social-menu"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-3">
-              <a
-                class="nav-link"
-                href="https://twitter.com/yus0813pereira"
-                target="_blank"
-                ><i class="bi bi-twitter icons-social-menu"></i></a>
-            </li>
-            <li class="nav-item mx-3">
-              <a
-                class="nav-link"
-                href="https://www.tiktok.com/@yusmairapereira"
-                target="_blank"
-                ><i class="bi bi-tiktok icons-social-menu"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <!-- inicio -->
-    <section class="container my-5">
-      <div class="row d-block">
-        <div class="col">
-          <div
-            id="carouselExampleAutoplaying"
-            class="carousel slide carousel-dark"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-            </div>
-            <div class="carousel-inner rounded-3">
-              <div class="carousel-item active">
-                <img
-                  src="./imags/photo-home-1.png"
-                  class="d-block img-fluid"
-                  alt="marketing foto"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h6>Puedes descarga mi Cv</h6>
-                  <a
-                    class="text-decoration-none btn-carusell font-monospace px-5 py-1 rounded-2"
-                    download="Yusmaira_Pereira_Cv"
-                    href="./documens/Cv_yusmaira_pereira.pdf"
-                    >CLICK</a
-                  >
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./imags/photo-home-2.png"
-                  class="d-block img-fluid"
-                  alt="foto de marketing"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <p>
-                    ¿Listos para descubrir las últimas
-                    <span class="letter-cita">noticias, tips</span> y lo más
-                    emocionante del mundo del<span class="letter-cita"
-                      >#Marketing #E-Commerce
-                      #ComunidadDigita</span
-                    >🌟📢
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev"
-            ></button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next"
-            ></button>
-          </div>
-        </div>
-        <div class="col mt-2">
-          <p class="display-3 text-center text-uppercase pt-5">
-            Maketing
-          </p>
-          <p class="text-center font-monospace">
-            El marketing utiliza estrategias en línea para promover
-            productos y servicios, llegar a una audiencia específica, generar
-            interés y obtener resultados medibles para las Compañias.
-          </p>
-          <p class="corrida text-center fs-2">Yusmaira Pereira</p>
-        </div>
-      </div>
-    </section>
-    <hr />
-
-    <!-- acerca de mi -->
-    <div id="about-sect" class="row titulo-pri">
-      <div class="col text-center">
-        <h4 class="text-uppercase">Acerca de mi</h4>
+<body>
+  <!-- menu -->
+  <section id="home-sect"></section>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <img class="navbar-brand ms-3" src="./logotype/small.png" alt="" width="150px" />
+      <button class="btn-menu d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center align-items-center ms-lg-5" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#about-sect">Acerca de Mi</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#estudios-sect">Estudios</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#portafolio-sect">Mi Portafolio</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#news-sect">Noticias</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a download="Yusmaira_Pereira_Cv" class="nav-link" href="./documens/Cv_yusmaria_Pereira_2024.pdf">Mi Cv</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" aria-current="page" href="#footer-sect">Contactos</a>
+          </li>
+        </ul>
+        <!-- iconos social media -->
+        <ul class="d-flex list-unstyled mt-3 ms-5">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="https://www.linkedin.com/in/yusmaira-pereira/" target="_blank"><i
+                class="bi bi-linkedin icons-social-menu"></i></a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
+                class="bi bi-instagram icons-social-menu"></i></a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                class="bi bi-twitter icons-social-menu"></i></a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
+                class="bi bi-tiktok icons-social-menu"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-    <section class="container my-5">
-        <div class="row bg-black rounded-3">
-            <div class="col-12 col-lg-6 py-3 d-flex justify-content-center">
-                <div class="imgen-acerca">
-                    <img class="img-fluid rounded-2" src="./profile/profile1.png" alt="foto perfil 1">
-                </div>
+  </nav>
+
+  <!-- inicio -->
+  <section class="container my-5">
+    <div class="row d-block">
+      <div class="col">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+              <img src="./imags/photo-home-1.png" class="d-block img-fluid" alt="marketing foto" />
+              <div class="carousel-caption d-none d-md-block">
+                <h6>Puedes descarga mi Cv</h6>
+                <a class="text-decoration-none btn-carusell font-monospace px-5 py-1 rounded-2"
+                  download="Yusmaira_Pereira_Cv" href="./documens/Cv_yusmaira_pereira.pdf">CLICK</a>
+              </div>
             </div>
-            <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center">
-                <div class="contenedor-title">
-                    <p class="display-5 text-uppercase">mi nombre es</p>
-                    <p class="display-3 text-uppercase fw-bold colorName">Yusmaira Pereira</p>
-                    <div class="cont-profesional">
-                        <p class="text-center text-uppercase fw-bold font-monospace">soy Community Manager & Marketing
-                        </p>
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <img src="./imags/photo-home-2.png" class="d-block img-fluid" alt="foto de marketing" />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  ¿Listos para descubrir las últimas
+                  <span class="letter-cita">noticias, tips</span> y lo más
+                  emocionante del mundo del<span class="letter-cita">#Marketing #E-Commerce
+                    #ComunidadDigita</span>🌟📢
+                </p>
+              </div>
             </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"></button>
+        </div>
+      </div>
+      <div class="col mt-2">
+        <p class="display-3 text-center text-uppercase pt-5">
+          Maketing
+        </p>
+        <p class="text-center font-monospace">
+          El marketing utiliza estrategias en línea para promover
+          productos y servicios, llegar a una audiencia específica, generar
+          interés y obtener resultados medibles para las Compañias.
+        </p>
+        <p class="corrida text-center fs-2">Yusmaira Pereira</p>
+      </div>
+    </div>
+  </section>
+  <hr />
+
+  <!-- acerca de mi -->
+  <div id="about-sect" class="row titulo-pri">
+    <div class="col text-center">
+      <h4 class="text-uppercase">Acerca de mi</h4>
+    </div>
+  </div>
+  <section class="container my-5">
+    <div class="row bg-black rounded-3">
+      <div class="col-12 col-lg-6 py-3 d-flex justify-content-center">
+        <div class="imgen-acerca">
+          <img class="img-fluid rounded-2" src="./profile/profile1.png" alt="foto perfil 1">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center">
+        <div class="contenedor-title">
+          <p class="display-5 text-uppercase">mi nombre es</p>
+          <p class="display-3 text-uppercase fw-bold colorName">Yusmaira Pereira</p>
+          <div class="cont-profesional">
+            <p class="text-center text-uppercase fw-bold font-monospace">soy Community Manager & Marketing
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-6 py-3 d-flex justify-content-center align-items-center">
+        <div class="imgen-acerca d-flex">
+          <img class="img-fluid rounded-2" src="./profile/profile2.png" alt="foto perfil 2">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center">
+        <div class="mt-5">
+          <h4>Hola!</h4>
+          <p>Licenciada, con experiencia en E-commerce y facturación; culmine la
+            carrera de Marketing Digital, enfocada en : Community Manager, Publicidad en redes avanzado y
+            Growth Marketing. Actualmente complemento mis conocimientos con cursos de Diseño UX/UI, para
+            ampliar mis habilidades en el mundo Digital. He creado mi marca, la cual actualmente se encuentra en
+            desarrollo <br>
+            <br>
+
+            Mi trayectoria laboral y académica demuestra mi capacidad para enfrentar retos y mantenerme en
+            constante aprendizaje. Además, mi rol como madre me ha enseñado a cultivar
+            la responsabilidad, organización y adaptabilidad en todas las facetas de mi vida. <br> <br>
+
+            Fuera del ámbito profesional, tengo una inclinación por el conocimiento y disfruto de programas,
+            documentales o alguno u otro serie documentales sobre Marketing y su impactos en el mundo. Asimismo, la
+            música y la
+            tranquilidad de estar en mi hogar con mis seres queridos, son elementos fundamentales para mi bienestar.
+            <br> <br>
+
+            Considero que esta combinación de habilidades, pasiones e intereses me aporta una perspectiva
+            única como profesional en el área de Community Management. Mi objetivo es seguir creciendo en el
+            campo Digital. <br> <br>
+
+            Por otra parte, confío en que mi dedicación y compromiso, lo cual brinda una contribución valiosa para
+            cualquier proyecto o equipo en el
+            que participe."
+          </p>
+          <div class="row">
+            <div class="col">
+              <a class="acerca-logo-social" href="https://www.linkedin.com/in/yusmaira-pereira/" target="_blank"><i
+                  class="bi bi-linkedin icons-social-menu"></i>
+              </a>
+              <a class="acerca-logo-social" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
+                  class="bi bi-instagram icons-social-menu"></i>
+              </a>
+              <a class="acerca-logo-social" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                  class="bi bi-twitter icons-social-menu"></i>
+              </a>
+              <a class="acerca-logo-social" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
+                  class="bi bi-tiktok icons-social-menu"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr />
+
+  <!-- estudios -->
+  <div id="estudios-sect" class="row titulo-pri">
+    <div class="col text-center">
+      <h4 class="text-uppercase">Estudios</h4>
+    </div>
+  </div>
+  <section class="container my-5">
+    <div class="row">
+      <img class="col-lg-6 d-none d-md-block img-fluid" src="./imags/photo-exp-1.png"
+        alt="foto de laptop sobre la mesa" />
+      <div class="col-lg-6">
+        <div class="row mb-4">
+          <img class="col-md-4 col-lg-5 img-fluid" src="./imags/coder-logo.png" alt="logo coderhouse" />
+          <div class="col-md-2 col-lg-1 card-body">
+            <h5 class="card-title text-uppercase fw-bold text-center pt-4">
+              Marketing Digital
+            </h5>
+            <p class="card-text p-4">
+              Carrera Community Manager & Publicidad. estrategia de Publicidad
+              en Redes creando campañas de publicidad y Growth Marketing.
+            </p>
+            <div class="row align-items-center justify-content-center">
+              <a target="_blank" href="https://www.coderhouse.com/" class="btn btn-dark btn-card border-0 w-25">Ir a
+                Web</a>
+            </div>
+          </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-6 py-3 d-flex justify-content-center align-items-center">
-                <div class="imgen-acerca d-flex">
-                    <img class="img-fluid rounded-2" src="./profile/profile2.png" alt="foto perfil 2">
-                </div>
+          <img class="col-md-4 col-lg-5 img-fluid" src="./imags/it-logo.png" alt="logo educacion it" />
+          <div class="col-md-2 col-lg-1 card-body">
+            <h5 class="card-title text-uppercase fw-bold text-center pt-4">
+              introducción a marketing digital
+            </h5>
+            <p class="card-text p-4">
+              Conceptos del Marketing Digital, utilizando los canales
+              digitales y técnicas para desarrollar estrategias de
+              comunicación efectivas para aumentar el impacto campañas y
+              negocios.
+            </p>
+            <div class="row align-items-center justify-content-center">
+              <a target="_blank" href="https://www.educacionit.com/" class="btn btn-dark btn-card border-0 w-25 mb-2">Ir
+                a Web</a>
             </div>
-            <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center">
-                <div class="mt-5">
-                    <h4>Hola!</h4>
-                    <p>Licenciada, con experiencia en E-commerce y facturación; culmine la
-                      carrera de Marketing Digital, enfocada en : Community Manager, Publicidad en redes avanzado y
-                      Growth Marketing. Actualmente complemento mis conocimientos con cursos de Diseño UX/UI, para
-                      ampliar mis habilidades en el mundo Digital. He creado mi marca, la cual actualmente se encuentra en desarrollo <br>
-                        <br>
-
-                        Mi trayectoria laboral y académica demuestra mi capacidad para enfrentar retos y mantenerme en
-                        constante aprendizaje. Además, mi rol como madre me ha enseñado a cultivar
-                        la responsabilidad, organización y adaptabilidad en todas las facetas de mi vida. <br> <br>
-
-                        Fuera del ámbito profesional, tengo una inclinación por el conocimiento y disfruto de programas,
-                        documentales o alguno u otro serie documentales sobre Marketing y su impactos en el mundo. Asimismo, la música y la
-                        tranquilidad de estar en mi hogar con mis seres queridos, son elementos fundamentales para mi bienestar. <br> <br>
-
-                        Considero que esta combinación de habilidades, pasiones e intereses me aporta una perspectiva
-                        única como profesional en el área de Community Management. Mi objetivo es seguir creciendo en el
-                        campo Digital. <br> <br>
-
-                       Por otra parte, confío en que mi dedicación y compromiso, lo cual brinda una contribución valiosa para cualquier proyecto o equipo en el
-                        que participe."
-                    </p>
-                    <div class="row">
-                        <div class="col">
-                            <a class="acerca-logo-social" href="https://www.linkedin.com/in/yusmaira-pereira/"
-                                target="_blank"><i class="bi bi-linkedin icons-social-menu"></i>
-                            </a>
-                            <a class="acerca-logo-social" href="https://www.instagram.com/yusmkdigital/"
-                                target="_blank"><i class="bi bi-instagram icons-social-menu"></i>
-                            </a>
-                            <a class="acerca-logo-social" href="https://twitter.com/yus0813pereira" target="_blank"><i
-                                    class="bi bi-twitter icons-social-menu"></i>
-                            </a>
-                            <a class="acerca-logo-social" href="https://www.tiktok.com/@yusmairapereira"
-                                target="_blank"><i class="bi bi-tiktok icons-social-menu"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </div>
-    </section>
-    <hr />
-
-    <!-- estudios -->
-    <div id="estudios-sect" class="row titulo-pri">
-      <div class="col text-center">
-        <h4 class="text-uppercase">Estudios</h4>
       </div>
     </div>
-    <section class="container my-5">
-      <div class="row">
-        <img
-          class="col-lg-6 d-none d-md-block img-fluid"
-          src="./imags/photo-exp-1.png"
-          alt="foto de laptop sobre la mesa"
-        />
-        <div class="col-lg-6">
-          <div class="row mb-4">
-            <img
-              class="col-md-4 col-lg-5 img-fluid"
-              src="./imags/coder-logo.png"
-              alt="logo coderhouse"
-            />
-            <div class="col-md-2 col-lg-1 card-body">
-              <h5 class="card-title text-uppercase fw-bold text-center pt-4">
-                Marketing Digital
-              </h5>
-              <p class="card-text p-4">
-                Carrera Community Manager & Publicidad. estrategia de Publicidad
-                en Redes creando campañas de publicidad y Growth Marketing.
-              </p>
-              <div class="row align-items-center justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://www.coderhouse.com/"
-                  class="btn btn-dark btn-card border-0 w-25"
-                  >Ir a Web</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <img
-              class="col-md-4 col-lg-5 img-fluid"
-              src="./imags/it-logo.png"
-              alt="logo educacion it"
-            />
-            <div class="col-md-2 col-lg-1 card-body">
-              <h5 class="card-title text-uppercase fw-bold text-center pt-4">
-                introducción a marketing digital
-              </h5>
-              <p class="card-text p-4">
-                Conceptos del Marketing Digital, utilizando los canales
-                digitales y técnicas para desarrollar estrategias de
-                comunicación efectivas para aumentar el impacto campañas y
-                negocios.
-              </p>
-              <div class="row align-items-center justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://www.educacionit.com/"
-                  class="btn btn-dark btn-card border-0 w-25 mb-2"
-                  >Ir a Web</a
-                >
-              </div>
+    <hr>
+    <div class="row mt-0 mt-md-4 mt-lg-0">
+      <img class="col-lg-6 d-none d-md-block d-lg-none img-fluid" src="./imags/photo-exp-2.png"
+        alt="foto articulos de oficina" />
+      <div class="col-lg-6">
+        <div class="row mb-4">
+          <img class="col-md-4 col-lg-5 img-fluid" src="./imags/domestika-logo.png" alt="logo domestika" />
+          <div class="col-md-2 col-lg-1 card-body">
+            <h5 class="card-title text-uppercase fw-bold text-center pt-4">
+              google y facebook ads
+            </h5>
+            <p class="card-text p-4">
+              Módulos Google y Facebook Ads. Marketing para redes Sociales.
+              Diseño UX.
+            </p>
+            <div class="row align-items-center justify-content-center">
+              <a target="_blank" href="https://www.domestika.org/es" class="btn btn-dark btn-card border-0 w-25">Ir a
+                Web</a>
             </div>
           </div>
         </div>
       </div>
-      <hr>
-      <div class="row mt-0 mt-md-4 mt-lg-0">
-        <img
-          class="col-lg-6 d-none d-md-block d-lg-none img-fluid"
-          src="./imags/photo-exp-2.png"
-          alt="foto articulos de oficina"
-        />
-        <div class="col-lg-6">
-          <div class="row mb-4">
-            <img
-              class="col-md-4 col-lg-5 img-fluid"
-              src="./imags/domestika-logo.png"
-              alt="logo domestika"
-            />
-            <div class="col-md-2 col-lg-1 card-body">
-              <h5 class="card-title text-uppercase fw-bold text-center pt-4">
-                google y facebook ads
-              </h5>
-              <p class="card-text p-4">
-                Módulos Google y Facebook Ads. Marketing para redes Sociales.
-                Diseño UX.
-              </p>
-              <div class="row align-items-center justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://www.domestika.org/es"
-                  class="btn btn-dark btn-card border-0 w-25"
-                  >Ir a Web</a
-                >
-              </div>
+      <img class="col-lg-6 d-none d-lg-block img-fluid" src="./imags/photo-exp-2.png"
+        alt="foto de laptop sobre la mesa" />
+    </div>
+    <hr>
+    <div class="row">
+      <img class="col-lg-6 d-none d-md-block img-fluid" src="./imags/photo-exp-3.jpg" alt="foto chica home office" />
+      <div class="col-lg-6">
+        <div class="row mb-4">
+          <img class="col-md-4 col-lg-5 img-fluid" src="./imags/udemy-logo.png" alt="logo udemy" />
+          <div class="col-md-2 col-lg-1 card-body">
+            <h5 class="card-title text-uppercase fw-bold text-center pt-4">
+              Illustrator CC
+            </h5>
+            <p class="card-text p-4">
+              Adobe Illustrator CC herramienta que permite realizar imagenes
+              vectoriales, uso de herramientas de selección, la pluma, el
+              lapiz, los colores, la creación de mesas de trabajos.
+            </p>
+            <div class="row align-items-center justify-content-center">
+              <a target="_blank" href="https://www.udemy.com/" class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
             </div>
           </div>
         </div>
-        <img
-          class="col-lg-6 d-none d-lg-block img-fluid"
-          src="./imags/photo-exp-2.png"
-          alt="foto de laptop sobre la mesa"
-        />
-      </div>
-      <hr>
-      <div class="row">
-        <img
-          class="col-lg-6 d-none d-md-block img-fluid"
-          src="./imags/photo-exp-3.jpg"
-          alt="foto chica home office"
-        />
-        <div class="col-lg-6">
-          <div class="row mb-4">
-            <img
-              class="col-md-4 col-lg-5 img-fluid"
-              src="./imags/udemy-logo.png"
-              alt="logo udemy"
-            />
-            <div class="col-md-2 col-lg-1 card-body">
-              <h5 class="card-title text-uppercase fw-bold text-center pt-4">
-                Illustrator CC
-              </h5>
-              <p class="card-text p-4">
-                Adobe Illustrator CC herramienta que permite realizar imagenes
-                vectoriales, uso de herramientas de selección, la pluma, el
-                lapiz, los colores, la creación de mesas de trabajos.
-              </p>
-              <div class="row align-items-center justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://www.udemy.com/"
-                  class="btn btn-dark btn-card border-0 w-25"
-                  >Ir a Web</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <img
-              class="col-md-4 col-lg-5 img-fluid"
-              src="./imags/univ-logo.png"
-              alt="logo de la unversidad momboy"
-            />
-            <div class="col-md-2 col-lg-1 card-body">
-              <h5 class="card-title text-uppercase fw-bold text-center pt-4">
-                univ. valle del momboy
-              </h5>
-              <p class="card-text p-4">
-                Promover la ética y calidad procesos de relevancia que propicien
-                el Desarrollo Humano Sustentable, mediante la formación integral
-                de personas altamente participativas, competentes y
-                emprendedoras.
-              </p>
-              <div class="row align-items-center justify-content-center">
-                <a
-                  target="_blank"
-                  href="https://uvm.edu.ve/"
-                  class="btn btn-dark btn-card border-0 w-25"
-                  >Ir a Web</a
-                >
-              </div>
+        <div class="row">
+          <img class="col-md-4 col-lg-5 img-fluid" src="./imags/univ-logo.png" alt="logo de la unversidad momboy" />
+          <div class="col-md-2 col-lg-1 card-body">
+            <h5 class="card-title text-uppercase fw-bold text-center pt-4">
+              univ. valle del momboy
+            </h5>
+            <p class="card-text p-4">
+              Promover la ética y calidad procesos de relevancia que propicien
+              el Desarrollo Humano Sustentable, mediante la formación integral
+              de personas altamente participativas, competentes y
+              emprendedoras.
+            </p>
+            <div class="row align-items-center justify-content-center">
+              <a target="_blank" href="https://uvm.edu.ve/" class="btn btn-dark btn-card border-0 w-25">Ir a Web</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <hr />
-
-    <!-- portafolio -->
-    <div id="portafolio-sect" class="row titulo-pri">
-      <div class="col text-center">
-        <h4 class="text-uppercase">Mi Portafolio</h4>
       </div>
     </div>
-    <section class="container my-5">
-      <div class="row">
-        <!--box 1-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/contenido.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Creación de Contenido
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Creé contenido dinámico para diversas plataformas sociales, abordando carruseles visualmente atractivos, narrativas envolventes, vídeos
-                  impactantes, hilos detallados en X (Twitter) y publicaciones estratégicas. Incorporé elementos como memes para añadir un toque de humor,
-                  enfoques específicos sobre temas relevantes, referencias a ubicaciones clave y contenido
-                  especial para fechas destacadas,<strong>incluyendo ofertas y promociones irresistibles.</strong>
-                </div>
+  </section>
+  <hr />
+
+  <!-- portafolio -->
+  <div id="portafolio-sect" class="row titulo-pri">
+    <div class="col text-center">
+      <h4 class="text-uppercase">Mi Portafolio</h4>
+    </div>
+  </div>
+  <section class="container my-5">
+    <div class="row">
+      <!--box 1-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/contenido.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Creación de Contenido
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Creé contenido dinámico para diversas plataformas sociales, abordando carruseles visualmente atractivos,
+                narrativas envolventes, vídeos
+                impactantes, hilos detallados en X (Twitter) y publicaciones estratégicas. Incorporé elementos como
+                memes para añadir un toque de humor,
+                enfoques específicos sobre temas relevantes, referencias a ubicaciones clave y contenido
+                especial para fechas destacadas,<strong>incluyendo ofertas y promociones irresistibles.</strong>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
-        <!--box 2-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/buyer.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Diferentes Buyer
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Realice una descripción detallada y específica del cliente ideal para
-                  las marcas, considerando sus características demográficas,
-                  comportamientos, necesidades y preferencias. <strong>Esta aproximación
+      </div>
+      <!--box 2-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/buyer.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Diferentes Buyer
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Realice una descripción detallada y específica del cliente ideal para
+                las marcas, considerando sus características demográficas,
+                comportamientos, necesidades y preferencias. <strong>Esta aproximación
                   nos habilita para personalizar estrategias de marketing y así
                   satisfacer de manera efectiva las expectativas y deseos de nuestra
                   audiencia objetivo.</strong>
-                </div>
               </div>
             </div>
           </div>
         </div>
-        <!--box 3-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/feed.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Feed Red Social
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Optimicé la presentación del Feed de mi marca
-                  mediante la estratégica división de cada entrada en 2
-                  o 3 partes. La coherencia de colores y tipografías se
-                  mantiene de manera cuidadosa, <strong>buscando obtener
+      </div>
+      <!--box 3-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/feed.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Feed Red Social
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Optimicé la presentación del Feed de mi marca
+                mediante la estratégica división de cada entrada en 2
+                o 3 partes. La coherencia de colores y tipografías se
+                mantiene de manera cuidadosa, <strong>buscando obtener
                   una apariencia organizada y armoniosa.</strong> Destaco
-                  especialmente el diseño, que adopta una estructura
-                  de ajedrez para resaltar aún más la estética visual y
-                  fortalecer la identidad de la marca.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 4-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/wiframe.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="flase" aria-controls="collapseFour">
-                  Wireframe App
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  He creado un prototipo de aplicación para servicios de uñas, que destaca por su detallada presentación de
-                  colores, diseños y estilos. <strong>La app incluye botones de acción para comprar o reservar, implementados
-                  de manera intuitiva, junto con secciones específicas para medios de  pago. </strong> Cada pantalla sigue una
-                  estructura organizada, manteniendo coherencia en tipografías, colores y diseño. El desarrollo se llevó a cabo en
-                  la plataforma de Figma, garantizando eficiencia y alineación con las tendencias actuales del marketing digital.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 5-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/invitaciones.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Invitaciones Design
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  He desarrolle un diseño conciso, simple y sofisticado para un evento tan especial como una boda. <strong>He
-                  asegurado la coherencia en la tipografía y colores,</strong> siguiendo una estructura estratégica que transmite
-                  calidez y estilo, optimizando así la experiencia digital y resaltando la singularidad del momento matrimonial.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 6-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/metas.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Campañas Meta
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  En esta sección, detallo el proceso integral para lanzar una campaña en Meta con el objetivo de impulsar el
-                  reconocimiento de marca. <strong>Desde la selección de objetivos hasta la asignación de presupuestos, definición del público, segmentación,
-                  elección de ubicación y la creación estratégica del conjunto de anuncios, </strong>cada paso se aborda con enfoque preciso para maximizar el
-                  impacto y la efectividad de la campaña en el ámbito digital.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 7-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/ads.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  Campañas Ads
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  En este paso, detallo el proceso de una Campaña Display diseñada para aumentar el tráfico de la marca. Siguiendo una 
-                  serie de pasos meticulosos, desde la elección de objetivos, estrategias de pujas, definición de público objetivo, segmentación,
-                  asignación de presupuesto hasta la creación de anuncios, <strong>con el propósito de llegar a una audiencia mas amplia en diversos medios.</strong>
-                  Además, exploré distintos modelos de presentación de videos para maximizar su impacto en entornos digitales.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 8-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/historys.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  Historys
-                </button>
-              </h2>
-              <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>He creado narrativas visuales en formatos estáticos y de vídeo, resaltando un enfoque coherente en contenido
-                  vinculado a la marca</strong> con la que estoy colaborando en la actualidad, fortaleciendo así la identidad y 
-                  presencia de la marca en el ámbito digital.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 9-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/reel.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  Reel
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Diseñe Reels con un enfoque estratégico en diversas áreas, incorporando transiciones y sonidos. <strong>Se mantuvo la
-                  coherencia en colores y seleccione la tipografía adecuada para captar la atención del público y destacar el llamado a la
-                  acción.</strong> Este proceso de creación cuidadosa tiene como objetivo maximizar la participación y el compromiso de la audiencia en
-                  el entorno digital.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--box 10-->
-        <div class="col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <img
-                  class="col d-none d-md-block img-fluid"
-                  src="./imags-proyectos/post.png"
-                  alt="imagen creacion de contenido"
-                  />
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                  Post
-                </button>
-              </h2>
-              <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Elabore diseños de publicaciones en diversos sectores, asegurando coherencia en términos de transparencias, tamaños, colores y
-                  tipografías para captar la atención visual. Cada entrada está acompañada de un copy específico
-                  y un llamado a la acción, con el propósito de estimular la interacción del público objetivo con
-                  la marca. Este enfoque estratégico busca no solo destacar estéticamente, sino también impulsar la participación activa de la audiencia en el entorno digital
-                </div>
+                especialmente el diseño, que adopta una estructura
+                de ajedrez para resaltar aún más la estética visual y
+                fortalecer la identidad de la marca.
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!--btn cv y portafolio-->
-      <div class="row my-5 text-center">
-        <div class="col">
-          <a
-                    class="text-decoration-none font-monospace px-5 py-1 rounded-2 btn-cv-portafolio"
-                    download="Yusmaira_Pereira_Cv"
-                    href="./documens/Portafolio_Yusmaira_Pereira.pdf"
-                    >Descargar Mi Portafolio</a
-                  >
+      <!--box 4-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/wiframe.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="flase" aria-controls="collapseFour">
+                Wireframe App
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                He creado un prototipo de aplicación para servicios de uñas, que destaca por su detallada presentación
+                de
+                colores, diseños y estilos. <strong>La app incluye botones de acción para comprar o reservar,
+                  implementados
+                  de manera intuitiva, junto con secciones específicas para medios de pago. </strong> Cada pantalla
+                sigue una
+                estructura organizada, manteniendo coherencia en tipografías, colores y diseño. El desarrollo se llevó a
+                cabo en
+                la plataforma de Figma, garantizando eficiencia y alineación con las tendencias actuales del marketing
+                digital.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row my-5 text-center">
-        <div class="col">
-          <a
-                    class="text-decoration-none font-monospace px-5 py-1 rounded-2 btn-cv-portafolio"
-                    download="Yusmaira_Pereira_Cv"
-                    href="./documens/Cv_yusmaria_Pereira_2024.pdf"
-                    >Descargar Mi Cv</a
-                  >
+      <!--box 5-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/invitaciones.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Invitaciones Design
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                He desarrolle un diseño conciso, simple y sofisticado para un evento tan especial como una boda.
+                <strong>He
+                  asegurado la coherencia en la tipografía y colores,</strong> siguiendo una estructura estratégica que
+                transmite
+                calidez y estilo, optimizando así la experiencia digital y resaltando la singularidad del momento
+                matrimonial.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-    </section>
-    <hr>
-
-    <!-- noticias-->
-    <div id="news-sect" class="row titulo-pri">
-        <div class="col text-center">
-            <h4 class="text-uppercase">Noticias</h4>
+      <!--box 6-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/metas.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Campañas Meta
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                En esta sección, detallo el proceso integral para lanzar una campaña en Meta con el objetivo de impulsar
+                el
+                reconocimiento de marca. <strong>Desde la selección de objetivos hasta la asignación de presupuestos,
+                  definición del público, segmentación,
+                  elección de ubicación y la creación estratégica del conjunto de anuncios, </strong>cada paso se aborda
+                con enfoque preciso para maximizar el
+                impacto y la efectividad de la campaña en el ámbito digital.
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!--box 7-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/ads.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Campañas Ads
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                En este paso, detallo el proceso de una Campaña Display diseñada para aumentar el tráfico de la marca.
+                Siguiendo una
+                serie de pasos meticulosos, desde la elección de objetivos, estrategias de pujas, definición de público
+                objetivo, segmentación,
+                asignación de presupuesto hasta la creación de anuncios, <strong>con el propósito de llegar a una
+                  audiencia mas amplia en diversos medios.</strong>
+                Además, exploré distintos modelos de presentación de videos para maximizar su impacto en entornos
+                digitales.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box 8-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/historys.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Historys
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>He creado narrativas visuales en formatos estáticos y de vídeo, resaltando un enfoque coherente
+                  en contenido
+                  vinculado a la marca</strong> con la que estoy colaborando en la actualidad, fortaleciendo así la
+                identidad y
+                presencia de la marca en el ámbito digital.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box 9-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/reel.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Reel
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Diseñe Reels con un enfoque estratégico en diversas áreas, incorporando transiciones y sonidos.
+                <strong>Se mantuvo la
+                  coherencia en colores y seleccione la tipografía adecuada para captar la atención del público y
+                  destacar el llamado a la
+                  acción.</strong> Este proceso de creación cuidadosa tiene como objetivo maximizar la participación y
+                el compromiso de la audiencia en
+                el entorno digital.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box 10-->
+      <div class="col-lg-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <img class="col d-none d-md-block img-fluid" src="./imags-proyectos/post.png"
+              alt="imagen creacion de contenido" />
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                Post
+              </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Elabore diseños de publicaciones en diversos sectores, asegurando coherencia en términos de
+                transparencias, tamaños, colores y
+                tipografías para captar la atención visual. Cada entrada está acompañada de un copy específico
+                y un llamado a la acción, con el propósito de estimular la interacción del público objetivo con
+                la marca. Este enfoque estratégico busca no solo destacar estéticamente, sino también impulsar la
+                participación activa de la audiencia en el entorno digital
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <section class="container my-5">
-        <div class="row">
-            <div class="col">
-                <div id="carouselExampleAutoplayingNew" class="carousel slide carousel-dark" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1">
-                        </button>
-                        <button type="button" data-bs-target="#carouselExampleAutoplayingNew" data-bs-slide-to="1"
-                            aria-label="Slide 2">
-                        </button>
-                        <button type="button" data-bs-target="#carouselExampleAutoplayingNew" data-bs-slide-to="2"
-                            aria-label="Slide 3">
-                        </button>
-                    </div>
-                    <div class="carousel-inner rounded-3">
-                        <div class="carousel-item active">
-                            <a
-                                href="https://www.marketingdirecto.com/digital-general/social-media-marketing/instagram-todo-necesitas-saber-sobre-algoritmo">
-                                <img src="./imags/news-1.png" class="d-block img-fluid" alt="noticia 1">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>¿Por qué ves este post? Instagram explica los detalles de su algoritmo</h5>
-                                <a target="_blank"
-                                    href="https://www.marketingdirecto.com/digital-general/social-media-marketing/instagram-todo-necesitas-saber-sobre-algoritmo"
-                                    class="btn btn-home" role="button">Leer más</a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a
-                                href="https://www.marketingdirecto.com/marketing-general/marketing/lecciones-pueden-aprender-marketeros-barbie">
-                                <img src="./imags/barbie-news.png" class="d-block img-fluid" alt="noticia 2">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>5 lecciones teñidas de rosa que pueden aprender los marketeros del "hype" de Barbie
-                                </h5>
-                                <a target="_blank"
-                                    href="https://www.marketingdirecto.com/marketing-general/marketing/lecciones-pueden-aprender-marketeros-barbie"
-                                    class="btn btn-home" role="button">Leer más</a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a
-                                href="https://www.marketingdirecto.com/marketing-general/tendencias/generacion-z-side-hustle-redefine-marketing-nueva-era-laboral">
-                                <img src="./imags/z-news.png" class="d-block img-fluid" alt="noticia 3">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>La Generación Z "Side Hustle" redefine el marketing y desencadena una nueva era
-                                    laboral</h5>
-                                <a target="_blank"
-                                    href="https://www.marketingdirecto.com/marketing-general/tendencias/generacion-z-side-hustle-redefine-marketing-nueva-era-laboral"
-                                    class="btn btn-home" role="button">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingNew"
-                        data-bs-slide="prev">
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingNew"
-                        data-bs-slide="next">
-                    </button>
-                </div>
+    <!--btn cv y portafolio-->
+    <div class="row my-5 text-center">
+      <div class="col">
+        <a class="text-decoration-none font-monospace px-5 py-1 rounded-2 btn-cv-portafolio"
+          download="Yusmaira_Pereira_Cv" href="./documens/Portafolio_Yusmaira_Pereira.pdf">Descargar Mi Portafolio</a>
+      </div>
+    </div>
+    <div class="row my-5 text-center">
+      <div class="col">
+        <a class="text-decoration-none font-monospace px-5 py-1 rounded-2 btn-cv-portafolio"
+          download="Yusmaira_Pereira_Cv" href="./documens/Cv_yusmaria_Pereira_2024.pdf">Descargar Mi Cv</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- noticias-->
+  <div id="news-sect" class="row titulo-pri">
+    <div class="col text-center">
+      <h4 class="text-uppercase">Noticias</h4>
+    </div>
+  </div>
+  <section class="container my-5">
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleAutoplayingNew" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleAutoplayingNew" data-bs-slide-to="1"
+              aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleAutoplayingNew" data-bs-slide-to="2"
+              aria-label="Slide 3">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleAutoplayingNew" data-bs-slide-to="3"
+              aria-label="Slide 4">
+            </button>
+          </div>
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+              <a
+                href="https://www.marketingdirecto.com/marketing-general/eventos-y-formacion/octava-edicion-marketing-rocks-palma-mallorca">
+                <img src="./imags/evento-marketing.jpg" class="d-block img-fluid" alt="noticia 1">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light">Marketing, pasión y mucho rock and roll: Aterriza la Octava Edición de Marketing
+                  Rocks en Palma de Mallorca</h5>
+                <a target="_blank"
+                  href="https://www.marketingdirecto.com/digital-general/social-media-marketing/instagram-todo-necesitas-saber-sobre-algoritmo"
+                  class="text-light" role="button">Leer más</a>
+              </div>
             </div>
-        </div>
-    </section>
-  
-    <!-- footer -->
-    <section id="footer-sect" class="container-fluid mt-5 bg-black p-5">
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="row justify-content-center align-items-center">
-                    <h5 class="text-center textcolor-footer mb-4">YusMK Digital</h5>
-                    <div class="imgen-footer">
-                        <img class="img-fluid rounded-circle border-color" src="./profile/p1.jpeg"
-                            alt="foto perfil 2" width="200px">
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.marketingdirecto.com/digital-general/social-media-marketing/instagram-todo-necesitas-saber-sobre-algoritmo">
+                <img src="./imags/news-1.png" class="d-block img-fluid" alt="noticia 2">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>¿Por qué ves este post? Instagram explica los detalles de su algoritmo</h5>
+                <a target="_blank"
+                  href="https://www.marketingdirecto.com/digital-general/social-media-marketing/instagram-todo-necesitas-saber-sobre-algoritmo"
+                  class="btn btn-home role=" button">Leer más</a>
+              </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3">
-                <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">blog</h6>
-                <div class="row text-center text-md-start">
-                    <a class="text-decoration-none textcolor-footer mb-2 mt-2 mt-md-0" href="#home-sect">Inicio</a>
-                    <a class="text-decoration-none textcolor-footer mb-2" href="#about-sect">Acerca de mi</a>
-                    <a class="text-decoration-none textcolor-footer mb-2" href="#estudios-sect">Estudios</a>
-                    <a class="text-decoration-none textcolor-footer" href="#news-sect">Noticias</a>
-                </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.marketingdirecto.com/marketing-general/marketing/lecciones-pueden-aprender-marketeros-barbie">
+                <img src="./imags/barbie-news.png" class="d-block img-fluid" alt="noticia 3">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>5 lecciones teñidas de rosa que pueden aprender los marketeros del "hype" de Barbie
+                </h5>
+                <a target="_blank"
+                  href="https://www.marketingdirecto.com/marketing-general/marketing/lecciones-pueden-aprender-marketeros-barbie"
+                  class="btn btn-home" role="button">Leer más</a>
+              </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-3 mt-2 mt-md-0">
-                <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">contactos</h6>
-                <div class="row text-center text-md-start">
-                    <a download="Yusmaira_Pereira_Cv" class="text-decoration-none textcolor-footer mb-2"
-                        href="./documens/Cv_yusmaira_pereira.pdf">Mi Cv</a>
-                    <a class="textcolor-footer text-decoration-none mb-2" href="mailto:yusmaira.pereira@gmail.com">Enviame un
-                        Email</a>
-                    <a class="textcolor-footer text-decoration-none" href="mailto:yusmaira.pereira@gmail.com">Mi Portafolio</a>
-                    <div class="row d-inline-block mt-4">
-                        <a class="textcolor-footer" href="https://www.linkedin.com/in/yusmaira-pereira/"
-                            target="_blank"><i class="bi bi-linkedin"></i>
-                        </a>
-                        <a class="textcolor-footer" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
-                                class="bi bi-instagram"></i>
-                        </a>
-                        <a class="textcolor-footer" href="https://twitter.com/yus0813pereira" target="_blank"><i
-                                class="bi bi-twitter"></i></a>
-                        <a class="textcolor-footer" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
-                                class="bi bi-tiktok"></i></a>
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.marketingdirecto.com/marketing-general/tendencias/generacion-z-side-hustle-redefine-marketing-nueva-era-laboral">
+                <img src="./imags/z-news.png" class="d-block img-fluid" alt="noticia 4">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>La Generación Z "Side Hustle" redefine el marketing y desencadena una nueva era
+                  laboral</h5>
+                <a target="_blank"
+                  href="https://www.marketingdirecto.com/marketing-general/tendencias/generacion-z-side-hustle-redefine-marketing-nueva-era-laboral"
+                  class="btn btn-home" role="button">Leer más</a>
+              </div>
             </div>
-            <div class="d-none d-lg-block col-lg-3">
-                <h6 class="text-uppercase textcolor-footer mb-4">Creaciones</h6>
-                <p class="textcolor-footer footer-text-tall">Hecho con todo mi AMOR del mundo por <strong>YusMK
-                        Digital</strong>, en
-                    colaboración del equipo de MonkeYor Design. Nuestro objetivo es brindar la ayuda y sobre todo el
-                    apoyo a todas las personas que desean crecer profesionalmente en el mundo del marketing y el
-                    maravilloso mundo que lo rodea en la actualidad. ¡Gracias por formar
-                    parte de mi comunidad! I Love it!.</p>
-                <p class="corrida textcolor-footer text-center fs-2">Yusmaira Pereira</p>
-            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingNew"
+            data-bs-slide="prev">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingNew"
+            data-bs-slide="next">
+          </button>
         </div>
       </div>
-      <div class="row linea my-4"></div>
-      <div class="row align-items-center justify-content-center">
-        <div class="col-12 col-md-4 text-center text-md-start">
-          <h6 class="textcolor-footer font-monospace footer-text-tall">
-            MonkeYor Design
-          </h6>
-          <p class="footer-text-tall textcolor-footer">
-            Established 2020 <i class="bi bi-c-circle"></i>
-          </p>
-        </div>
+    </div>
+    <!--videos vimeo-->
+    <div class="row">
+      <div class="col-lg-6">
+        <iframe src="https://player.vimeo.com/video/334824906?h=c8b3725b0d" width="640" height="360" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>Marketing Digital por Navneet en <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+      <div class="col-lg-6">
+        <iframe src="https://player.vimeo.com/video/201106279?h=bb69a85ece" width="640" height="360" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p>Marketing Digital por Jubal Hernandez</a> en <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+    </div>
+    <!--videos youtube-->
+    <div class="row">
+      <div class="col-lg-6">
+        <iframe width="640" height="315" src="https://www.youtube.com/embed/LOuBICx33NQ?si=fiPkKy_WbdCdynlS"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+          <p>Así Cambiará el Marketing Digital este <strong>2024</strong> | 10 Estrategias Prácticas por EmprendeAprendiendo</a> en <a href="https://www.youtube.com/">Youtube</a>.</p>
+      </div>
+      <div class="col-lg-6">
+        <iframe width="640" height="315" src="https://www.youtube.com/embed/O9j9aLo9waY?si=ghfERm4bJUG0I4xG"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+          <p>EVERYTHING You Need To Know About Marketing In 10 Minutes por Alex Cattoni</a> en <a href="https://www.youtube.com/">Youtube</a>.</p>
+      </div>
+    </div>
+    <hr>
+    <!--google map-->
+    <div class="row mt-5 align-items-center">
+          <div class=" col text-center">
+      <h4 class="text-uppercase"> mi ubicación</h4>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.54384415997!2d-58.589182894202!3d-34.61558332230072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1704387150962!5m2!1sen!2sar"
+      width="200" height="200" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
 
-        <div class="col-12 imgen-footer">
-          <img src="./imags/m1.png" alt="logo monkeyor" class="img-fluid" />
-        </div>
-
-        <div class="col-12 col-md-4 text-center text-md-end mt-4">
-          <div class="row">
-            <div class="col">
-              <a
-                class="textcolor-footer me-4"
-                href="https://www.linkedin.com/in/yorvisjesusrodriguez13/"
-                target="_blank"
-                ><i class="bi bi-linkedin"></i>
-              </a>
-              <a
-                class="textcolor-footer me-4"
-                href="https://www.instagram.com/monke.yor/"
-                target="_blank"
-                ><i class="bi bi-instagram"></i>
-              </a>
-              <a
-                class="textcolor-footer"
-                href="https://twitter.com/YorMonke"
-                target="_blank"
-                ><i class="bi bi-twitter"></i>
-              </a>
-            </div>
+  <!-- footer -->
+  <section id="footer-sect" class="container-fluid mt-5 bg-black p-5">
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="row justify-content-center align-items-center">
+          <h5 class="text-center textcolor-footer mb-4">YusMK Digital</h5>
+          <div class="imgen-footer">
+            <img class="img-fluid rounded-circle border-color" src="./profile/p1.jpeg" alt="foto perfil 2"
+              width="200px">
           </div>
         </div>
       </div>
-    </section>
+      <div class="col-12 col-md-4 col-lg-3">
+        <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">blog</h6>
+        <div class="row text-center text-md-start">
+          <a class="text-decoration-none textcolor-footer mb-2 mt-2 mt-md-0" href="#home-sect">Inicio</a>
+          <a class="text-decoration-none textcolor-footer mb-2" href="#about-sect">Acerca de mi</a>
+          <a class="text-decoration-none textcolor-footer mb-2" href="#estudios-sect">Estudios</a>
+          <a class="text-decoration-none textcolor-footer" href="#news-sect">Noticias</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3 mt-2 mt-md-0">
+        <h6 class="text-uppercase textcolor-footer mb-4 d-none d-md-block">contactos</h6>
+        <div class="row text-center text-md-start">
+          <a download="Yusmaira_Pereira_Cv" class="text-decoration-none textcolor-footer mb-2"
+            href="./documens/Cv_yusmaria_Pereira_2024.pdf">Descargar Mi Cv</a>
+          <a download="Yusmaira_Pereira_Cv" class="text-decoration-none textcolor-footer mb-2"
+            href="./documens/Portafolio_Yusmaira_Pereira.pdf">Descargar Mi Portafolio</a>
 
-<!-- script de java de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+          <a class="textcolor-footer text-decoration-none mb-2" href="mailto:yusmaira.pereira@gmail.com">Enviame un
+            Email</a>
+
+            <!--links de redes sociales-->
+          <div class="row d-inline-block mt-4">
+            <a class="textcolor-footer" href="https://www.linkedin.com/in/yusmaira-pereira/" target="_blank"><i
+                class="bi bi-linkedin"></i>
+            </a>
+            <a class="textcolor-footer" href="https://www.instagram.com/yusmkdigital/" target="_blank"><i
+                class="bi bi-instagram"></i>
+            </a>
+            <a class="textcolor-footer" href="https://twitter.com/yus0813pereira" target="_blank"><i
+                class="bi bi-twitter"></i></a>
+            <a class="textcolor-footer" href="https://www.tiktok.com/@yusmairapereira" target="_blank"><i
+                class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-lg-block col-lg-3">
+        <h6 class="text-uppercase textcolor-footer mb-4">Creaciones</h6>
+        <p class="textcolor-footer footer-text-tall">Hecho con todo mi AMOR del mundo por <strong>YusMK
+            Digital</strong>, en
+          colaboración del equipo de MonkeYor Design. Nuestro objetivo es brindar la ayuda y sobre todo el
+          apoyo a todas las personas que desean crecer profesionalmente en el mundo del marketing y el
+          maravilloso mundo que lo rodea en la actualidad. ¡Gracias por formar
+          parte de mi comunidad! I Love it!.</p>
+        <p class="corrida textcolor-footer text-center fs-2">Yusmaira Pereira</p>
+      </div>
+    </div>
+    </div>
+    <div class="row linea my-4"></div>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-md-4 text-center text-md-start">
+        <h6 class="textcolor-footer font-monospace footer-text-tall">
+          MonkeYor Design
+        </h6>
+        <p class="footer-text-tall textcolor-footer">
+          Established 2020 <i class="bi bi-c-circle"></i>
+        </p>
+      </div>
+
+      <div class="col-12 imgen-footer">
+        <img src="./imags/m1.png" alt="logo monkeyor" class="img-fluid" />
+      </div>
+
+      <div class="col-12 col-md-4 text-center text-md-end mt-4">
+        <div class="row">
+          <div class="col">
+            <a class="textcolor-footer me-4" href="https://www.linkedin.com/in/yorvisjesusrodriguez13/"
+              target="_blank"><i class="bi bi-linkedin"></i>
+            </a>
+            <a class="textcolor-footer me-4" href="https://www.instagram.com/monke.yor/" target="_blank"><i
+                class="bi bi-instagram"></i>
+            </a>
+            <a class="textcolor-footer" href="https://twitter.com/YorMonke" target="_blank"><i
+                class="bi bi-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- script de java de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
