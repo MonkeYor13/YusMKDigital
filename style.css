@@ -89,15 +89,18 @@ body {
 }
 
 /* portafolio */
-
 .btn-acordion{
   background: var(--colorTema);
 }
+
+/* btn cv y portafolio*/
 .btn-cv-portafolio{
-  background: linear-gradient(to right,#3DDECE, #3fbdb0);
-}
-.btn-portafolio{
+  border: 3px solid var(--colorTema);
   color: var(--colorSecudary);
+}
+.btn-cv-portafolio:hover{
+  background-color: var(--colorTema);
+  color: var(--colorPrimary);
 }
 
 /* footer */
